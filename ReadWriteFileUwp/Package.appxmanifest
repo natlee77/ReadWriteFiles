@@ -6,19 +6,19 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
 
-  <Identity
-    Name="17079c66-4d6e-4eee-b8ce-8e876f23e1f0"
-    Publisher="CN=HansMattin-Lassei"
-    Version="1.0.0.0" />
+	<Identity
+	  Name="0399f548-ffbc-42e4-99d6-cf0874dfb66c"
+	  Publisher="CN=46735"
+	  Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="17079c66-4d6e-4eee-b8ce-8e876f23e1f0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+	<mp:PhoneIdentity PhoneProductId="0399f548-ffbc-42e4-99d6-cf0874dfb66c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
-  <Properties>
-    <DisplayName>ReadWriteFileUwp</DisplayName>
-    <PublisherDisplayName>HansMattin-Lassei</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
-  </Properties>
-
+	<Properties>
+		<DisplayName>UWP_Upp1</DisplayName>
+		<PublisherDisplayName>46735</PublisherDisplayName>
+		<Logo>Assets\StoreLogo.png</Logo>
+	</Properties>
+	
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>

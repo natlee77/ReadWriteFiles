@@ -7,9 +7,9 @@ namespace ReadWriteJsonFile
     {
         static void Main(string[] args)
         {
-            //JsonService.WriteToFile(@"d:\files\persons.json", new Person("Hans", "Mattin-Lassei", 36, "Farsta"));
-            //JsonService.ReadFromFile(@"d:\files\persons.json");
-            JsonService.WriteToFileCorrect(@"d:\files\persons.json", new Person("Hans", "Mattin-Lassei", 36, "Farsta"));
+           //JsonService.WriteToFile(@"D:\Nataliya\.NET\DataLagring\Cataloq_files\persons.json", new Person("Nataliya", "Lisjo", 19, "Degefors"));
+           //JsonService.ReadFromFile(@"D:\Nataliya\.NET\DataLagring\Cataloq_files\persons.json");
+          JsonService.WriteToFileCorrect(@"D:\Nataliya\.NET\DataLagring\Cataloq_files\persons.json", new Person("Nataliya", "Lisjo", 19, "Degefors"));
         }
     }
 }
